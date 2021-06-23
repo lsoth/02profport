@@ -43,6 +43,20 @@ a {
     text-decoration: none;
 }
 
+figure { 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://placekitten.com/1000/700") ;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
 main {
     width: 90%;
     display: grid;
@@ -78,14 +92,9 @@ main {
     color: var(--bg2);
 }
 
-figure {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("http://placekitten.com/200/300");
-    background-size: cover;
-    background-position: center;
-}
+
+
+
 
 footer {
     padding: 20px;
@@ -93,3 +102,4 @@ footer {
     background-color: var(--bg2);
     color: var(--txt3);
 }
+
