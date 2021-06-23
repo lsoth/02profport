@@ -15,7 +15,7 @@ Here are some examples of what the website looks like, the links in the header o
 all work to take you to the different sections of the page. 
 
 
-![WebsiteEx1](./assets/images/Sc1)
+![WebsiteEx1](./assets/images/Sc1.png)
 
 ![WebsiteEx2](./assets/images/sc2.png)
 
