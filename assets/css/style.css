@@ -1,3 +1,4 @@
+/* setting colors for page */
 :root {
     --bg1: #0b0c10;
     --bg2: #45a29e;
@@ -11,7 +12,7 @@ body {
     background-color: var(--bg1)
 }
 
-/*Style for the heading of the page, updated semantics, fixed link to search engine optimization*/
+/*Style for the heading of the page*/
 
 header {
     padding: 20px;
@@ -26,16 +27,16 @@ header h1 {
 }
 
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
+    padding-top: 10px;
+    margin-right: 10px;
     float: right;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 header nav ul li {
     display: inline-flex;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
 a {
@@ -43,6 +44,7 @@ a {
     text-decoration: none;
 }
 
+/* Styling for the personal image and sub title */
 figure { 
     display: flex;
     justify-content: flex-end;
@@ -61,16 +63,15 @@ figure h2 {
     margin-bottom: 12px;
 }
 
+/* styling for the body of the main body of the website*/
 main {
     width: 90%;
     display:flex;
     flex-wrap: wrap;
     padding: 95px;
-    flex-grow: 100%;
-    flex-shrink: inherit;
 }
 
-
+/*  styling for the diffent sections of the website */
 .aboutme {
     margin: 30px;
     padding: 30px;
@@ -101,7 +102,6 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--bg3);
     color: var(--txt1);
-    justify-content: flex-end;
     border-left: solid;
     border-color: var(--txt2);
 }
@@ -113,12 +113,13 @@ main {
     height: 100vh;
     justify-content: flex-start;
     align-items: flex-end;
-    background-image: url("http://placekitten.com/1000/700") ;
+    background-image: url("http://placekitten.com/800/700") ;
     background-size: cover;
     background-position: center;
     height: 400px;
     width: 90%;
     margin: 2%;
+    min-width: 300px;
 }
 
 .titlework a {
@@ -126,12 +127,12 @@ main {
     color: var(--txt2);
 }
 
+
 .ndwk { 
     float: left;
     padding: 20px;
     display: flex;
     text-align: justify;
-    height: 100vh;
     justify-content: end;
     align-items: flex-end;
     background-image: url("http://placekitten.com/400/600") ;
@@ -139,6 +140,7 @@ main {
     background-position: center;
     height: 200px;
     width: 35%;
+    min-width: 300px;
     margin: 2%;
 }
 
@@ -147,11 +149,13 @@ main {
     color: var(--txt2);
 }
 
+
 .aboutme ul li {
     display: inline-flex;
     margin: 5%;    
 }
 
+/* style for the bottom of the page */
 footer {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -160,8 +164,19 @@ footer {
     margin: 0%;
 }
 
+/* make portfolio work boxes glow */
 .titlework:hover,
 .ndwk:hover {
   box-shadow: 0 0 20px var(--txt2);
 }
 
+/* responsive design for small screens */
+@media screen and (max-width: 768px) {
+    .work {
+      max-width: 50%;
+    }
+    .aboutme {
+        max-width: 50%; 
+    }
+    
+  }

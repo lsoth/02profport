@@ -2,9 +2,12 @@
 
 ## Description
 
+For this project the goal was to create a responsive porfolio page with responsive links, to direct you to different parts of the pages, as well as working links for contact information. Also there should be links t odifferent completed work done by the creator of the website. Also when the screen changes size so does the layout of the page. 
+
+
 ## Installation
 
-To open the project just visit this url: 
+To open the project just visit this url: https://lsoth.github.io/02profport/
 
 ## Usage
 
@@ -12,32 +15,26 @@ Here are some examples of what the website looks like, the links in the header o
 all work to take you to the different sections of the page. 
 
 
-![WebsiteEx1](./assets/images/ref1.png)
+![WebsiteEx1](./assets/images/Sc1)
 
-![WebsiteEx2](./assets/images/ref2.png)
+![WebsiteEx2](./assets/images/sc2.png)
 
-![WebsiteEx3](./assets/images/ref3.png)
+![WebsiteEx3](./assets/images/sc3.png)
+
+![WebsiteEx4](./assets/images/sc4.png)
+
 
 ## Credits
 
-In order to help accomplish my goals, I referenced a few different websites and information from class.
-The websites include:
+In order to help accomplish my goals, I referenced a few different websites and information from class and previous homework.
+The websites include: 
 
+https://www.w3schools.com/css/default.asp
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+
+https://yoksel.github.io/flex-cheatsheet/
 
 ## Licence
 
 no licence
-
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
