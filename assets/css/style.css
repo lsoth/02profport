@@ -78,6 +78,14 @@ main {
     color: var(--bg2);
 }
 
+figure {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("http://placekitten.com/200/300");
+    background-size: cover;
+    background-position: center;
+}
 
 footer {
     padding: 20px;
