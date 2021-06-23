@@ -75,6 +75,7 @@ main {
     margin: 20px;
     padding: 50px;
     height: fit-content;
+    width: 80%;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--bg3);
     color: var(--txt1);
@@ -88,18 +89,67 @@ main {
     font-weight: bolder;
     font-size: larger;
     position: relative;
-    margin-left: -150px;
+    margin-left: -160px;
     color: var(--bg2);
 }
 
+.work {
+    margin: 20px;
+    padding: 50px;
+    height: fit-content;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg3);
+    color: var(--txt1);
+    justify-content: flex-end;
+    border-left: solid;
+    border-color: var(--txt2);
+}
 
+.titlework { 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://placekitten.com/1000/700") ;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 90%;
+    margin: 2%;
+}
 
-
+.ndwk { 
+    float: left;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("http://placekitten.com/400/600") ;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 35%;
+    margin: 2%;
+}
 
 footer {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--bg2);
     color: var(--txt3);
+    margin: 0%;
 }
+
+footer h5 {
+    display: inline-flex;
+    font-size: 48px;
+}
+
 
